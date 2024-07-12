@@ -1,0 +1,278 @@
+*{
+    font-family: sans-serif;
+}
+
+.container{
+    width: 75%;
+    height: 4500px;
+    margin: 0 auto;
+}
+.container__header{
+    display: flex;
+}
+.container__header ul{
+    display: flex;
+    margin-left: 200px;
+    align-items: center;
+}
+.container__header li{
+    list-style: none;
+    margin-left: 32px;
+}
+.container__header a{
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+}
+.container__header img{
+    margin: 25px 100px;
+}
+.container__header button{
+    padding: 10px 40px;
+    background: var(--blue, #00BAFC);
+    color: #fff;
+    margin-top: 0;
+    border: 0;
+    border-radius: 8px;
+}
+.container__header button a{
+    color: #fff;
+}
+.container__hero{
+    display: flex;
+    padding: 100px 0;
+}
+.biznes{
+    width: 40%;
+    margin: auto;
+}
+.biznes blockquote{
+    margin-left: 0;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 30px 0;
+}
+.biznes h1{
+    font-size: 32px;
+}
+.container__hero iframe{
+    margin: auto;
+}
+.container__hero button{
+    padding: 8px 16px;
+    border: 0;
+    border-radius: 5px;
+    background: var(--blue, #00BAFC);
+}
+.container__hero a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+}
+.xizmatlar{
+    width: 100%;
+    height: 800px;
+    padding: 58px 0;
+}
+.xizmatlar h1{
+    text-align: center;
+}
+.xizmatlar p{
+    width: 700px;
+    margin-left: 350px;
+    text-align: center;
+}
+.vebsayt{
+    width: 300px;
+    height: 240px;
+    margin: auto;
+    padding: 24px;
+     box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 5px;
+}
+.service{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px 0;
+   
+}
+.vebsayt h1{
+    font-size: 25px;
+    margin-top: 30px;
+}
+.xizmatlar button{
+    padding: 8px 16px;
+    border: 0;
+    border-radius: 5px;
+    background: var(--blue, #00BAFC);
+    
+    margin: 30px 20px 0 480px;
+}
+.xizmatlar button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.xizmatlar a{
+    color: #00BAFC;
+}
+.reja{
+    width: 85%;
+    height: 1830px;
+    margin: 100px auto;
+    box-shadow: 0 1px 1px 0 black;
+}
+.reja h1{
+    text-align: center;
+}
+.reja p{
+    width: 700px;
+    margin-left: 250px;
+    text-align: center;
+}
+.talab{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+    padding: 20px;
+}
+.talab blockquote{
+    width: 493px;
+    margin: 0;
+    font-size: 16px;
+}
+.izoh{
+    margin-left: 80px;
+}
+.yechim{
+    margin-right: 150px;
+}
+.reja button{
+    padding: 8px 16px;
+    border: 0;
+    border-radius: 5px;
+    background: var(--blue, #00BAFC);
+    margin-left: 550px;
+    
+}
+.reja button a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+.buyurtma{
+    width: 100%;
+    height: 500px;
+    background-color: #00BAFC;
+    padding-top: 30px;
+}
+.buyurtma h1{
+    text-align: center;
+}
+.buyurtma p{
+    width: 700px;
+    margin-left: 350px;
+    text-align: center;
+}
+form{
+    width: 340px;
+    height: 300px;
+    background-color: #fff;
+    margin: auto;
+    padding: 15px;
+}
+input{
+    display: block;
+    border-radius: 5px;
+    background: var(--light-grey, #F3F3F3);
+    margin: auto;
+    font-size: 25px;
+    margin-top: 30px;
+    padding: 10px 5px;
+    border: 0;
+}
+select{
+    margin-left: 10px;
+    text-align: start;
+    font-size: 25px;
+    padding: 10px 120px 5px 2px ;
+    border-radius: 5px;
+    margin-top: 30px;
+    border: 0;
+    color: #777;
+    background: var(--light-grey, #F3F3F3);
+}
+.buyurtma button{
+    padding: 8px 16px;
+    border: 0;
+    border-radius: 5px;
+    background: var(--blue, #00BAFC);
+    margin: 30px 75px;
+}
+.buyurtma a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.flutter{
+    width: 100%;
+    background: var(--black, #191919);
+    height: 400px;
+    display: flex;
+    color: #fff;
+    padding-top: 70px;
+}
+.flutter a{
+    text-decoration: none;
+    color: white;
+}
+.flutter ul{
+    list-style: none;
+}
+.copy{
+    width: 35%;
+    margin-left: 40px;
+}
+.copy p{
+    font-size: 24px;
+    line-height: 24px;
+}
+.sayt{
+    width: 40%;
+    margin-left: 150px;
+}
+.sayt ul{
+    padding: 0;
+    font-size: 20px;
+}
+
+.sayt li{
+    margin-top: 20px;
+}
+.internet{
+    width: 30%;
+}
+.internet li{
+    align-items: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: 2s moveup linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(-50px);
+    }
+}
+
+
